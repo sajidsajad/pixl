@@ -1,0 +1,23 @@
+{
+  "name": "pixl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^8.0.10"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.4",
+    "prettier": "^3.8.3",
+    "prettier-plugin-tailwindcss": "^0.0.0-insiders.f7d2598",
+    "tailwindcss": "^4.2.4"
+  }
+}
