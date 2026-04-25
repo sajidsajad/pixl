@@ -1,4 +1,7 @@
-<header class="my-4 hidden w-48 shrink-0 flex-col justify-between gap-8 pl-4 sm:flex xl:ml-32">
+   <!-- Navigation -->
+    <header
+      class="my-4 hidden w-48 shrink-0 flex-col justify-between gap-8 pl-4 sm:flex xl:ml-32"
+    >
       <div class="overflow-y-auto">
         <!-- Logo -->
         <a href="/">
@@ -74,9 +77,8 @@
             class="bg-pixl hover:bg-pixl/90 active:bg-pixl/95 text-pixl-dark border border-transparent px-4 py-3 text-sm"
             >
             Post
-            </button>          
+            </button>
       @endisset
-
       <!-- User controls -->
       <div class="flex gap-3.5">
         <a href="/profile" class="shrink-0">

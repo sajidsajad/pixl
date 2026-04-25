@@ -1,9 +1,7 @@
-<div class="border-pixl-light/10 mt-10 border p-4">
-    <h2 class="text-pixl-light/60 text-sm">Artists to follow</h2>
-    <ol class="mt-4 flex flex-col gap-4">
-
-        @foreach ($artists as $artist)
-
+      <div class="border-pixl-light/10 mt-10 border p-4">
+        <h2 class="text-pixl-light/60 text-sm">Artists to follow</h2>
+        <ol class="mt-4 flex flex-col gap-4">
+            @foreach ($artists as $artist)
             <li class="flex items-center justify-between gap-4">
                 <div class="flex items-center gap-2.5">
                 <img
@@ -18,11 +16,10 @@
                 >
                 Follow
                 </button>
-            </li>                
-        @endforeach
-    </ol>
-
-    <a href="#" class="text-pixl-light/60 mt-4 inline-block text-sm"
-        >Show more</a
-    >
-</div>
+            </li>
+            @endforeach
+        </ol>
+        <a href="#" class="text-pixl-light/60 mt-4 inline-block text-sm"
+          >Show more</a
+        >
+      </div>
